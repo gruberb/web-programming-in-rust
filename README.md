@@ -1,6 +1,6 @@
 # Web programming in Rust
 
-![Rust for the web](https://imgur.com/djtaPzB)
+![Rust for the web](https://raw.githubusercontent.com/gruberb/web-programming-in-rust/master/assets/webforrust.png)
 
 1. [Intro to web programming in Rust for NodeJS developers](https://medium.com/@gruberbastian/intro-to-web-programming-in-rust-for-nodejs-developers-1a9c048c4de1)
 2. Rust for the Web - 2/x: Deploy your first App to Production
