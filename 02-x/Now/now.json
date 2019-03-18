@@ -1,0 +1,10 @@
+{
+  "name": "now",
+  "version": 2,
+  "builds": [
+    {
+      "src": "src/index.rs",
+      "use": "@now/rust"
+    }
+  ]
+}

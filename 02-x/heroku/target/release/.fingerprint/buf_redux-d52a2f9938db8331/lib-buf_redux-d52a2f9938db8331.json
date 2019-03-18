@@ -1,1 +1,0 @@
-{"rustc":2665766631260647001,"features":"[]","target":17850556931901536856,"profile":2574335274271406459,"path":15622170253744234318,"deps":[["memchr v2.2.0","memchr",4555495463207051797],["safemem v0.2.0","safemem",6705989037448873436]],"local":[{"Precalculated":"0.8.1"}],"rustflags":[],"edition":"Edition2015"}
