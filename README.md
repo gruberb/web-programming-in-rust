@@ -10,5 +10,3 @@ This Repo contains links to the article series "Web Programming in Rust" plus th
 4. Web Programming in Rust - 4/x: Plug In Your Database
 5. Web Programming in Rust - 5/x: Generate and serve HTML templates
 6. Web Programming in Rust - 6/x: GitHub OAuth Flow 
-7. Web Programming in Rust - 7/x: Testing
-8. Web Programming in Rust - 8/x: Logging 
