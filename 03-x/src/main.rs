@@ -10,6 +10,7 @@ use std::sync::Mutex;
 #[derive(Serialize, Deserialize, Clone)]
 struct User {
     name: String,
+    height: u32,
 }
 
 #[derive(Default)]
