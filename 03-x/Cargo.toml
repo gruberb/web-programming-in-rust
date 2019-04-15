@@ -5,7 +5,7 @@ authors = ["Bastian Gruber <gruberbastian@me.com>"]
 edition = "2018"
 
 [dependencies]
-tide = { path = "../../tide" }
+tide = "0.1.0"
 http = "0.1"
 serde = "1.0.80"
 serde_derive = "1.0.80"
