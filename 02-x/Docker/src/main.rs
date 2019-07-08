@@ -1,22 +1,22 @@
-#![feature(async_await, futures_api)]
+#![feature(async_await)]
 
-use std::env;
-use tide::{configuration::Configuration};
+extern crate tide;
 
-fn get_server_port() -> u16 {
-    env::var("PORT").ok().and_then(|p| p.parse().ok()).unwrap_or(8181)
-}
+use tide::App;
+use std::{env, net::SocketAddr};
 
 fn main() {
-    let mut app = tide::App::new(());
-       let app_config = Configuration::build()
-        .address(String::from("0.0.0.0"))
-        .port(get_server_port())
-        .finalize();
+    let mut app = App::new(());
+    let address = SocketAddr::from(([127, 0, 0, 1], get_server_port()));
 
-    app.config(app_config);
-
-    app.at("/").get(async || "Hello, world!");
-
-    app.serve();
+    app.at("/").get(async move |_| "hello world");
+    app.serve(address).expect("Start server");
 }
+
+fn get_server_port() -> u16 {
+    env::var("PORT")
+        .ok()
+        .and_then(|port| port.parse().ok())
+        .unwrap_or_else(|| 8186)
+}
+
