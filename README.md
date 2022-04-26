@@ -1,3 +1,5 @@
+# THIS BLOG SERIES GOT MADE INTO A BOOK (https://www.manning.com/books/rust-web-development) and the code for the book, which covers most of the written and planned posts, can be found here: https://github.com/Rust-Web-Development/code.
+
 ![Rust for the web](https://raw.githubusercontent.com/gruberb/web-programming-in-rust/master/assets/webforrust.png)
 
 # Web programming in Rust
